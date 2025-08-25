@@ -1,19 +1,21 @@
 # this project create from
 bun create hono@latest test
 
-```txt
-npm install
-npm run dev
+## install using pnpm
+
+```bash
+pnpm install
+pnpm run dev
 ```
 
-```txt
-npm run deploy
+```bash
+pnpm run deploy
 ```
 
 [For generating/synchronizing types based on your Worker configuration run](https://developers.cloudflare.com/workers/wrangler/commands/#types):
 
-```txt
-npm run cf-typegen
+```bash
+pnpm run cf-typegen
 ```
 
 Pass the `CloudflareBindings` as generics when instantiation `Hono`:
